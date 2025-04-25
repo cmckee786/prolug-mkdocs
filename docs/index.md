@@ -9,7 +9,7 @@
 
     [:octicons-arrow-right-24: Getting started](https://prolug.org/)
 
--   :fontawesome-fa-solid:{ .lg .middle } __Killer Coda Labs__
+-   :fontawesome-solid-flask-vial:{ .lg .middle } __Killer Coda Labs__
 
     ---
 
