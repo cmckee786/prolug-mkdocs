@@ -1,0 +1,79 @@
+site_name: ProLUG Docs
+site_url: http://localhost
+repo_name: ProfessionalLinuxUsersGroup/mkdocs
+repo_url: https://github.com/ProfessionalLinuxUsersGroup
+theme:
+  name: material
+  logo: ./assets/logo.png
+  favicon: ./assets/logo.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to system preference
+
+  features:
+    - navigation.indexes
+    - navigation.top
+    - navigation.path
+    - navigation.expand
+    - navigation.tabs
+    - navigation.footer
+    - toc.follow
+    - content.tabs.link
+
+nav:
+  - Home: index.md
+  - Linux Admin Course:
+      - Course Syllabus: lac/syllabus.md
+      - Unit 1 Linux File Operations: lac/u1intro.md
+      - Unit 1 Worksheet: lac/u1ws.md
+      - Unit 1 Lab: lac/u1lab.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/m6VPPD9usw
+      name: ProLUG on Discord
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/ProfessionalLinuxUsersGroup
+      name: ProLUG GitHub Repositories
+
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@het_tanis8213
+      name: Het_Tanis Youtube
+
+    - icon: logo
+      link: https:prolug.org/
+      name: ProLUG.org
+
+copyright: Copyright &copy; 2025 Professional Linux Users Group
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.blocks.caption
+  - tables
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
+plugins:
+  - glightbox
