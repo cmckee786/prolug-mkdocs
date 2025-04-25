@@ -376,7 +376,7 @@ The primary permissions commands we’re going to use are going to be chmod (acc
 
 A quick rundown of how permissions break out:
 
-<img src='./assets/images/permissions.png'></img>
+![Permissions](./assets/images/permissions.png)
 
 Let’s examine some permissions and see if we can’t figure out what permissions are allowed.
 
@@ -391,12 +391,12 @@ The first character lets you know if the file is a directory, file, or link. In 
 
 - What permissions do I have?
 
-``: For group.
+`---`: For group.
 
 - Who are they?
 - What can my group do?
 
-``: For everyone else.
+`---`: For everyone else.
 
 - What can everyone else do?
 

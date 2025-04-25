@@ -4,8 +4,8 @@ repo_name: ProfessionalLinuxUsersGroup/mkdocs
 repo_url: https://github.com/ProfessionalLinuxUsersGroup
 theme:
   name: material
-  logo: ./assets/logo.png
-  favicon: ./assets/logo.png
+  logo: assets/logo.png
+  favicon: assets/logo.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: indigo
@@ -32,10 +32,16 @@ theme:
 nav:
   - Home: index.md
   - Linux Admin Course:
-      - Course Syllabus: lac/syllabus.md
-      - Unit 1 Linux File Operations: lac/u1intro.md
-      - Unit 1 Worksheet: lac/u1ws.md
-      - Unit 1 Lab: lac/u1lab.md
+    - Course Syllabus: lac/syllabus.md
+    - Linux File Operations: lac/u1intro.md
+    - Worksheet: lac/u1ws.md
+    - Lab: lac/u1lab.md
+  - Linux Security Course:
+    - Course Syallabus: psc/syllabus.md
+    - Build Standards and Compliance: psc/u1intro.md
+    - Worksheet: psc/u1ws.md
+    - Lab: psc/u1lab.md
+
 
 extra:
   social:
