@@ -33,14 +33,16 @@ nav:
   - Home: index.md
   - Linux Admin Course:
     - Course Syllabus: lac/syllabus.md
-    - Linux File Operations: lac/u1intro.md
-    - Worksheet: lac/u1ws.md
-    - Lab: lac/u1lab.md
+    - Unit 1:
+      - Linux File Operations: lac/u1intro.md
+      - Worksheet: lac/u1ws.md
+      - Lab: lac/u1lab.md
   - Linux Security Course:
     - Course Syallabus: psc/syllabus.md
-    - Build Standards and Compliance: psc/u1intro.md
-    - Worksheet: psc/u1ws.md
-    - Lab: psc/u1lab.md
+    - Unit 1:
+      - Build Standards and Compliance: psc/u1intro.md
+      - Worksheet: psc/u1ws.md
+      - Lab: psc/u1lab.md
 
 
 extra:
