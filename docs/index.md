@@ -9,7 +9,7 @@
 
     [:octicons-arrow-right-24: Getting started](https://prolug.org/)
 
--   :fontawesome-flask:{ .lg .middle } __Killer Coda Labs__
+-   :fontawesome-fa-solid:{ .lg .middle } __Killer Coda Labs__
 
     ---
 
@@ -23,7 +23,7 @@
     ---
 
     The ProLUG Linux Administration course, designed to build foundational
-    knowledge in Linux and Systems Administration
+    knowledge in Linux
 
     [:octicons-arrow-right-24: Admin Course](https://cmckee786.github.io/prolug-mkdocs/lac/syllabus/)
 
@@ -32,7 +32,7 @@
     ---
 
     The ProLUG Linux Security course, an advanced course that focuses on
-    industry standard skills in compliance and systems security
+    systems security
 
     [:octicons-arrow-right-24: Security Course](https://cmckee786.github.io/prolug-mkdocs/psc/syllabus/)
 
