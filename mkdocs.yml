@@ -160,3 +160,9 @@ markdown_extensions:
 plugins:
   - glightbox
   - search
+  - git-authors
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: cmckee786/prolug-mkdocs
+      branch: main
