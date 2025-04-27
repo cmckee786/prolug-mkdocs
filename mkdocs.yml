@@ -2,7 +2,7 @@ site_name: ProLUG Docs
 site_url: http://localhost
 repo_name: ProLUG MkDocs Testing
 repo_url: https://github.com/cmckee786/prolug-mkdocs
-edit: uri edit/main/docs
+edit_uri: edit/main/docs
 theme:
   name: material
   logo: assets/logo.png
