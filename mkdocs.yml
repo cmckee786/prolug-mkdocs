@@ -18,7 +18,7 @@ theme:
       scheme: slate
       toggle:
         icon: material/toggle-switch
-        name: Switch to system preference
+        name: Switch to light mode
 
   features:
     - navigation.indexes
